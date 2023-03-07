@@ -20,9 +20,9 @@ The resource files which are used for the prompts and validation originated from
 
 The project makes use of Jackson to handle JSON/XML/YAML storage of the animal data file. The command line supports an optional "-type [json|xml|yaml]" argument to specify which file format you prefer. The default is JSON.
 
-Because the application uses a library, but does not have a build tool configured it will probably be easiest to run the application from IntelliJ. The repo includes an IntelliJ iml file with the needed dependencies.
+Because the application uses a library and does not have a build tool configured, it will probably be easiest to run the application from IntelliJ. The repo includes an IntelliJ iml file with the needed dependencies.
 
-The project supports both English and Esperanto text. Which language to use is determined by the language code for the environment. In IntelliJ IDEA, this can be set with a VM option value like "-Duser.language=en".
+The project supports both English and Esperanto text. Which language to use is determined by the language code for the environment. In IntelliJ, this can be set with a VM option value like "-Duser.language=en".
 
 Here is an example session:
 
